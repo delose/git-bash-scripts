@@ -76,7 +76,7 @@ REPO_URL=\$1
 
 # Set up the remote repository
 git remote add origin \$REPO_URL
-git push -u origin master
+git push -u origin main
 
 echo "Remote repository set up at \$REPO_URL"
 EOL
