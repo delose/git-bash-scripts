@@ -48,6 +48,9 @@ else
   echo "$GITIGNORE already exists."
 fi
 
+# Checkout main branch
+git checkout -b main
+
 # Add files to git
 git add .
 
